@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleHobbiesButton.addEventListener('click', function() {
         if (hobbiesSection.style.display === 'none') {
             hobbiesSection.style.display = 'block';
-            toggleHobbiesButton.textContent = '隐藏爱好';
+            toggleHobbiesButton.textContent = 'hide hobbies';
         } else {
             hobbiesSection.style.display = 'none';
-            toggleHobbiesButton.textContent = '显示爱好';
+            toggleHobbiesButton.textContent = 'show hobbies';
         }
     });
 });
